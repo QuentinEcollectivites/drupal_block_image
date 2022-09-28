@@ -1,0 +1,7 @@
+lwblocks.settings_form:
+  path: '/admin/config/system/lwblocks'
+  defaults:
+    _title: 'lwblocks settings'
+    _form: 'Drupal\lwblocks\Form\SettingsForm'
+  requirements:
+    _permission: 'administer lwblocks configuration'
