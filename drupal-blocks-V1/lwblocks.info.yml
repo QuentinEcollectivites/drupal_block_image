@@ -1,0 +1,6 @@
+name: lwblocks
+type: module
+description: Custom Blocks for a site
+package: lw
+core: 8.x
+core_version_requirement: ^8 || ^9

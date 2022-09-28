@@ -1,0 +1,15 @@
+
+<a href="{{ result.url }}" class="modal-content rounded-4 shadow text-decoration-none text-reset my-4">
+      <div class="modal-body p-4 py-2">
+          <div class="d-flex justify-content-around align-items-center">
+            <img src="{{ result.image }}" class="align-middle" width="48" height="48">
+            <div class="d-flex justify-content-center flex-column text-center">
+             	 <h5 class="m-2">{{ result.title }}</h5>
+              	<br>
+		{% if result.check != 1 %}		
+			<p>{{ result.description }}</p>		
+		{% endif %}
+            </div>
+          </div>
+   </div>
+</a>
